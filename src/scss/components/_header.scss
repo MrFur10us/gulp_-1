@@ -1,0 +1,43 @@
+.header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  &__logo {
+    margin-right: 50px;
+  }
+
+  &__text1,
+  &__text2,
+  &__text3 {
+    color: #001a49;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__text1 {
+    margin-right: 51px;
+  }
+
+  &__text2 {
+    margin-right: 322px;
+  }
+
+  &__text3 {
+    margin-right: 50px;
+  }
+
+  &__btn {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #cd10ff 15.75%, #9f06ff 84.63%);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
